@@ -60,7 +60,7 @@ var graphdef = map[string](mp.Graphs){
 		Label: "Postgres Relpages",
 		Unit:  "integer",
 		Metrics: [](mp.Metrics){
-			mp.Metrics{Name: "*", Label: "%2", Diff: false, Stacked: false},
+			mp.Metrics{Name: "*", Label: "%1", Diff: false, Stacked: false},
 		},
 	},
 	"postgres.deadlocks": mp.Graphs{
